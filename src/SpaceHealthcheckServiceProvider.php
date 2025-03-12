@@ -2,9 +2,9 @@
 
 namespace GoCPA\SpaceHealthcheck;
 
+use GoCPA\SpaceHealthcheck\Commands\SpaceHealthcheckCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use GoCPA\SpaceHealthcheck\Commands\SpaceHealthcheckCommand;
 
 class SpaceHealthcheckServiceProvider extends PackageServiceProvider
 {
